@@ -1,0 +1,163 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  background: #3B3486;
+}
+
+.pg{
+  color: #000;
+  position:absolute;
+  left:300px;
+}
+
+.act{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:200px;
+  height:35px;
+  background:rgb(19, 179, 19);
+  border-radius: 30px;
+  box-shadow: #000;
+}
+
+.Output{
+  background: #fff;
+  width: 800px;
+  height: 450px;
+  margin-left: 80px;
+}
+
+.res{
+  color: green;
+}
+
+.text{
+  color: #000;
+  padding-top: 20px;
+}
+
+.play-again{
+  color: blue;
+  background: #fff;
+  border: 1px solid blue;
+  border-radius: 0;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Back-to-home{
+  color: green;
+  background-color: #fff;
+  border: 1px solid green;
+  border-radius: 0;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score{
+  color:blue;
+  font-size: 25px;
+}
+
+.doc{
+  color: #000;
+  display: flex;
+  justify-content:space-between;
+  padding: 20px;
+}
+
+.buttons{
+  margin-top:20px;
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.previous,.next,.Quit{
+  border-radius: 0;
+}
+
+.previous{
+  background: #3E7EAA;
+  color: #000;
+}
+
+.next{
+  background:green;
+  color: #000;
+}
+
+.Quit{
+  background: red;
+  color: #000;
+}
+
+.main{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one,.two,.three,.four{
+  width:400px;
+  height:40px;
+  background:#4CB9E7;
+  border-radius:20px;
+  margin:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Quiz-page{
+  height: 100vh;
+}
+
+.firstTwo{
+  display: flex;
+  justify-content: center;
+
+}
+
+.lastTwo{
+  display: flex;
+  justify-content: center;
+}
+
+.Q, .Qs{
+  color: #000;
+}
+
+
+.Btn{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: flex-end;
+  margin-top:40px;
+}
+
+.blankspace{
+  width:950px;
+  height:500px;
+  background:#fff;
+  padding:20px;
+  
+}
+
+.first{
+  color: white;
+  flex-direction: column;
+}
