@@ -7,9 +7,9 @@ import QuizComponent from './components/QuizComponent';
 function App() {
   return (
     <div className="App">
-      <HomeComponent/>
-      <QuizComponent />
-      <ResultComponent />
+      {/* <HomeComponent/> */}
+      <QuizComponent/>
+      {/* <ResultComponent/> */}
  
     </div>
   );
